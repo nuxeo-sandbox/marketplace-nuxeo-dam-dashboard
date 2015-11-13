@@ -18,7 +18,6 @@
 
     <copy todir="${outdir}/marketplace/install/bundles">
       <artifact:file key="org.nuxeo.sample:nuxeo-dam-dashboard" />
-      <artifact:resolveFile key="nuxeo-studio:nuxeo-routing-expenses" />
     </copy>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip" basedir="${outdir}/marketplace" />
