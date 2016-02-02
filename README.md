@@ -1,4 +1,4 @@
-# Nuxeo DAM Dashboard Sample MP
+# Nuxeo DAM Dashboard Sample NP
 
 This repository is for building the Nuxeo DAM Dashboard.
 
@@ -10,7 +10,7 @@ Then navigate into the root folder for this project and run:
 
     mvn clean install
 
-The Nuxeo Package will be placed in the `marketplace/target` folder.
+The Nuxeo Package will be placed in the `nuxeo-dam-dashboard-np/target` folder.
 
 # Deploying
 
@@ -28,7 +28,13 @@ Contact [jfletcher@nuxeo.com](mailto:jfletcher@nuxeo.com)
 
 # Licensing
 
-[GNU Lesser General Public License (LGPL) v2.1](http://www.gnu.org/licenses/lgpl-2.1.html)
+(C) Copyright 2006-2011 Nuxeo SA ([http://nuxeo.com/](http://nuxeo.com/)) and others.
+ 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 # About Nuxeo
 

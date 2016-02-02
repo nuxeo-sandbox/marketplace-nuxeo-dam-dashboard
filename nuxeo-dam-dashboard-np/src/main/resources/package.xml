@@ -23,7 +23,7 @@
     <platform>cap-7.10</platform>
     <platform>cap-8.1</platform>
   </platforms>
-  <license>LGPL 2.1</license>
-  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
+  <license>Apache 2.0</license>
+  <license-url>http://www.apache.org/licenses/LICENSE-2.0</license-url>
   <visibility>PUBLIC</visibility>
 </package>
