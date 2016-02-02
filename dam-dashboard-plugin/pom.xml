@@ -8,10 +8,9 @@
   </parent>
 
   <groupId>org.nuxeo.sample</groupId>
-  <artifactId>nuxeo-dam-dashboard</artifactId>
+  <artifactId>dam-dashboard-plugin</artifactId>
   <version>1.0.5-SNAPSHOT</version>
-  <name>Nuxeo DAM Dashboard Sample</name>
-  <description>Nuxeo DAM Dashboard Sample</description>
+  <name>Nuxeo DAM Dashboard Sample Plugin</name>
 
   <build>
     <plugins>
@@ -59,9 +58,4 @@
     </repository>
   </repositories>
 
-  <scm>
-    <connection>scm:git:git://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:nuxeo-sandbox/nuxeo-dam-dashboard-plugin.git</developerConnection>
-    <url>https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin</url>
-  </scm>
 </project>

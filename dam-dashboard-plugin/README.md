@@ -31,7 +31,7 @@ By default a proxy is created to localhost to handle Nuxeo authentication.  You 
 
 # Deploying
 
-It is recommended to deploy the marketplace package. But the plug-in may be installed directly as well. 
+It is recommended to deploy the Nuxeo Package. But the plug-in may be installed directly as well. 
 
 Copy JAR file into `$NUXEO_HOME/nxserver/plugins/`.
 

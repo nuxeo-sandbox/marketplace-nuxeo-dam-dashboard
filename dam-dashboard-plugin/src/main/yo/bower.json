@@ -14,7 +14,6 @@
     "index.html"
   ],
   "license": "LGPL",
-  "homepage": "https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin",
   "ignore": [
     "/.*",
     "/test/"

@@ -6,21 +6,27 @@
     <version>7.10-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.nuxeo.dam</groupId>
+  <groupId>org.nuxeo.sample</groupId>
   <artifactId>parent-dam-dashboard</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.4-SNAPSHOT</version>
-  <name>Parent package of DAM Dashboard sample</name>
+  <version>1.0.5-SNAPSHOT</version>
+  <name>Parent project of DAM Dashboard sample</name>
 
   <modules>
-    <module>marketplace-dam-dashboard</module>
+    <module>dam-dashboard-plugin</module>
+    <module>dam-dashboard-np</module>
   </modules>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.nuxeo.dam</groupId>
-        <artifactId>marketplace-dam-dashboard</artifactId>
+        <groupId>org.nuxeo.sample</groupId>
+        <artifactId>dam-dashboard-plugin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.sample</groupId>
+        <artifactId>dam-dashboard-np</artifactId>
         <version>${project.version}</version>
         <type>zip</type>
       </dependency>

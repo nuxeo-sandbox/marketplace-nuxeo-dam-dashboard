@@ -1,18 +1,16 @@
 # Nuxeo DAM Dashboard Sample MP
 
-This repository is for building the Marketplace package for [the Nuxeo DAM Dashboard plugin](https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin).
+This repository is for building the Nuxeo DAM Dashboard.
 
 This sample uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to present a dashboard for the Nuxeo DAM add-on.
 
 # Building
 
-You need to first build the [nuxeo-dam-dashboard-plugin](https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin) project.
-
 Then navigate into the root folder for this project and run:
 
     mvn clean install
 
-The Marketplace package will be placed in the `marketplace/target` folder.
+The Nuxeo Package will be placed in the `marketplace/target` folder.
 
 # Deploying
 

@@ -4,7 +4,7 @@
 
   <property name="outdir" value="${maven.project.build.directory}" />
 
-  <target name="build" description="Build Nuxeo DAM Dashboard Marketplace package">
+  <target name="build" description="Build Nuxeo DAM Dashboard Nuxeo Package">
     <tstamp />
     <delete failonerror="false" dir="${outdir}/marketplace" />
     <mkdir dir="${outdir}/marketplace" />
@@ -17,7 +17,7 @@
     </copy>
 
     <copy todir="${outdir}/marketplace/install/bundles">
-      <artifact:file key="org.nuxeo.sample:nuxeo-dam-dashboard" />
+      <artifact:file key="org.nuxeo.sample:dam-dashboard-plugin" />
     </copy>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip" basedir="${outdir}/marketplace" />
