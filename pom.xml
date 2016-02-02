@@ -13,20 +13,20 @@
   <name>Parent project of DAM Dashboard sample</name>
 
   <modules>
-    <module>dam-dashboard-plugin</module>
-    <module>dam-dashboard-np</module>
+    <module>nuxeo-dam-dashboard</module>
+    <module>nuxeo-dam-dashboard-np</module>
   </modules>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.nuxeo.sample</groupId>
-        <artifactId>dam-dashboard-plugin</artifactId>
+        <artifactId>nuxeo-dam-dashboard</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.nuxeo.sample</groupId>
-        <artifactId>dam-dashboard-np</artifactId>
+        <artifactId>nuxeo-dam-dashboard-np</artifactId>
         <version>${project.version}</version>
         <type>zip</type>
       </dependency>

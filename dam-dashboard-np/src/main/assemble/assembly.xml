@@ -17,7 +17,7 @@
     </copy>
 
     <copy todir="${outdir}/marketplace/install/bundles">
-      <artifact:file key="org.nuxeo.sample:dam-dashboard-plugin" />
+      <artifact:file key="org.nuxeo.sample:nuxeo-dam-dashboard" />
     </copy>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip" basedir="${outdir}/marketplace" />

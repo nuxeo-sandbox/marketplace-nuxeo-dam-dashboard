@@ -8,7 +8,7 @@
   </parent>
 
   <groupId>org.nuxeo.sample</groupId>
-  <artifactId>dam-dashboard-plugin</artifactId>
+  <artifactId>nuxeo-dam-dashboard</artifactId>
   <version>1.0.5-SNAPSHOT</version>
   <name>Nuxeo DAM Dashboard Sample Plugin</name>
 

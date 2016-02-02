@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>org.nuxeo.sample</groupId>
-  <artifactId>dam-dashboard-np</artifactId>
+  <artifactId>nuxeo-dam-dashboard-np</artifactId>
   <packaging>zip</packaging>
   <version>1.0.5-SNAPSHOT</version>
   <name>Nuxeo DAM Dashboard Nuxeo Package</name>
@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>org.nuxeo.sample</groupId>
-      <artifactId>dam-dashboard-plugin</artifactId>
+      <artifactId>nuxeo-dam-dashboard</artifactId>
       <version>1.0.5-SNAPSHOT</version>
     </dependency>
   </dependencies>
