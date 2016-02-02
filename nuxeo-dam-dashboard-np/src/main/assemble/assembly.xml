@@ -4,7 +4,7 @@
 
   <property name="outdir" value="${maven.project.build.directory}" />
 
-  <target name="build" description="Build Nuxeo DAM Dashboard Marketplace package">
+  <target name="build" description="Build Nuxeo DAM Dashboard Nuxeo Package">
     <tstamp />
     <delete failonerror="false" dir="${outdir}/marketplace" />
     <mkdir dir="${outdir}/marketplace" />

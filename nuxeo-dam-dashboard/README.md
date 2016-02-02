@@ -1,20 +1,39 @@
-# Nuxeo DAM Dashboard Sample MP
+# About Nuxeo DAM Dashboard Plugin
 
-This repository is for building the Nuxeo DAM Dashboard.
+This Nuxeo plugin uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to create a dashboard for the Nuxeo DAM add-on.
 
-This sample uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to present a dashboard for the Nuxeo DAM add-on.
+It depends on the [nuxeo-dam-dashboard](https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard) Polymer component.
+
+# Requirements
+
+See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
+
+Building this sample requires the following software:
+
+- [Node.js] (http://nodejs.org)
+- [Bower] (http://bower.io)
 
 # Building
 
-Then navigate into the root folder for this project and run:
+Navigate into the folder that contains `pom.xml`.
 
     mvn clean install
 
-The Nuxeo Package will be placed in the `marketplace/target` folder.
+The plugin will be placed in the `target` folder.
+
+# Experimenting
+
+You can run the application without installing it in Nuxeo:
+
+    grunt serve
+
+By default a proxy is created to localhost to handle Nuxeo authentication.  You can modify `Gruntfile.js` to change the proxy settings.
 
 # Deploying
 
-You may deploy the zip using `nuxeoctl` or the Nuxeo Admin Center.
+It is recommended to deploy the Nuxeo Package. But the plug-in may be installed directly as well. 
+
+Copy JAR file into `$NUXEO_HOME/nxserver/plugins/`.
 
 # Usage
 

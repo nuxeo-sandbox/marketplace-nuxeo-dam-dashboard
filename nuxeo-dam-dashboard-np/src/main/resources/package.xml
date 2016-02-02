@@ -1,5 +1,5 @@
 <package type="addon" name="nuxeo-dam-dashboard" version="@VERSION@">
-  <title>Nuxeo Travel Expenses</title>
+  <title>Nuxeo DAM Dashboard</title>
   <description>
     <p>This is a sample addon to demonstrate usage of Nuxeo Data Visualization.</p>
   </description>
@@ -9,17 +9,19 @@
   <uninstaller restart="true" />
   <!-- <hotreload-support>false</hotreload-support> -->
   <!-- <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance> -->
-  <!-- <nuxeo-validation>none</nuxeo-validation> -->
+  <nuxeo-validation>none</nuxeo-validation>
   <!-- <nuxeo-validation>inprocess</nuxeo-validation> -->
   <!-- <nuxeo-validation>primary_validation</nuxeo-validation> -->
-  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <!-- <nuxeo-validation>nuxeo_certified</nuxeo-validation> -->
   <!-- <production-state>proto</production-state> -->
   <production-state>testing</production-state>
   <!-- <production-state>production_ready</production-state> -->
-  <supported>true</supported>
+  <supported>false</supported>
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
     <platform>cap-@DISTRIB_VERSION@-HF*</platform>
+    <platform>cap-7.10</platform>
+    <platform>cap-8.1</platform>
   </platforms>
   <license>LGPL 2.1</license>
   <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>

@@ -10,3 +10,10 @@ target
 *.log
 *.jar
 *~
+node_modules
+dist
+test/temp
+bower_components
+.tmp
+.settings/
+bin/
